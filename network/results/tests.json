@@ -1,0 +1,115 @@
+{
+  "status": "PASS",
+  "solver_seed_checks": [
+    {
+      "seed": 0,
+      "method": "Tableau",
+      "status": "converged",
+      "iterations": 117,
+      "kkt": 1.5543122344752192e-15
+    },
+    {
+      "seed": 0,
+      "method": "Revised",
+      "status": "converged",
+      "iterations": 117,
+      "kkt": 1.0848929469682999e-16
+    },
+    {
+      "seed": 0,
+      "method": "Sparse-IPM",
+      "status": "converged",
+      "iterations": 7,
+      "kkt": 1.0441149338570724e-08
+    },
+    {
+      "seed": 0,
+      "method": "PR-PDHG",
+      "status": "converged",
+      "iterations": 1850,
+      "kkt": 2.2950748116855383e-07
+    },
+    {
+      "seed": 0,
+      "method": "PDLP",
+      "status": "converged",
+      "iterations": 1152,
+      "kkt": 9.779087761785377e-09
+    },
+    {
+      "seed": 1,
+      "method": "Tableau",
+      "status": "converged",
+      "iterations": 111,
+      "kkt": 1.7486012637846216e-15
+    },
+    {
+      "seed": 1,
+      "method": "Revised",
+      "status": "converged",
+      "iterations": 111,
+      "kkt": 4.024921571841522e-16
+    },
+    {
+      "seed": 1,
+      "method": "Sparse-IPM",
+      "status": "converged",
+      "iterations": 6,
+      "kkt": 2.576260023767445e-07
+    },
+    {
+      "seed": 1,
+      "method": "PR-PDHG",
+      "status": "converged",
+      "iterations": 1000,
+      "kkt": 3.5042925344841436e-07
+    },
+    {
+      "seed": 1,
+      "method": "PDLP",
+      "status": "converged",
+      "iterations": 704,
+      "kkt": 2.56808485588067e-09
+    },
+    {
+      "seed": 2,
+      "method": "Tableau",
+      "status": "converged",
+      "iterations": 143,
+      "kkt": 1.004182995123521e-15
+    },
+    {
+      "seed": 2,
+      "method": "Revised",
+      "status": "converged",
+      "iterations": 143,
+      "kkt": 3.885780586188048e-16
+    },
+    {
+      "seed": 2,
+      "method": "Sparse-IPM",
+      "status": "converged",
+      "iterations": 6,
+      "kkt": 1.8430401268891905e-07
+    },
+    {
+      "seed": 2,
+      "method": "PR-PDHG",
+      "status": "converged",
+      "iterations": 2800,
+      "kkt": 4.250044943754361e-07
+    },
+    {
+      "seed": 2,
+      "method": "PDLP",
+      "status": "converged",
+      "iterations": 1344,
+      "kkt": 3.047299412806126e-09
+    }
+  ],
+  "additional_checks": [
+    "carbon budget active",
+    "budget exhaustion",
+    "ten arbitrary dual lower bounds"
+  ]
+}

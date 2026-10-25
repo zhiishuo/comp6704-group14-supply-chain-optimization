@@ -1,0 +1,42 @@
+{
+  "warehouse_balance": {
+    "max_normalized_violation": 3.219646771412954e-15,
+    "active_count": 15,
+    "total": 15,
+    "dual_min": 1.4445773206839538,
+    "dual_max": 1.9531396260929106
+  },
+  "demand": {
+    "max_normalized_violation": 1.8758008052558587e-16,
+    "active_count": 20,
+    "total": 20,
+    "dual_min": 2.346539386380851,
+    "dual_max": 3.306526260566452
+  },
+  "factory_capacity": {
+    "max_normalized_violation": 1.8040795807199427e-16,
+    "active_count": 6,
+    "total": 10,
+    "dual_min": -0.38393493119530264,
+    "dual_max": -0.0
+  },
+  "warehouse_capacity": {
+    "max_normalized_violation": 1.5848596666298863e-16,
+    "active_count": 8,
+    "total": 15,
+    "dual_min": -0.6654508428671222,
+    "dual_max": -0.0
+  },
+  "carbon": {
+    "max_normalized_violation": 3.73650557788065e-16,
+    "active_count": 1,
+    "total": 1,
+    "dual_min": -0.5206800522520532,
+    "dual_max": -0.5206800522520532
+  },
+  "route_capacity": {
+    "max_normalized_violation": 0.0,
+    "active_count": 199,
+    "total": 450
+  }
+}

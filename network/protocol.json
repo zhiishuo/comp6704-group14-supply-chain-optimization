@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-24",
+  "scope": "User-requested extension to two-echelon supply chains with six separately specified constraint families and modern large-scale LP methods.",
+  "small_sizes": [
+    [
+      2,
+      3,
+      4
+    ],
+    [
+      4,
+      6,
+      8
+    ],
+    [
+      6,
+      9,
+      12
+    ]
+  ],
+  "small_seeds": [
+    1117,
+    2227,
+    3337,
+    4447,
+    5557
+  ],
+  "large_sizes": [
+    [
+      10,
+      15,
+      20
+    ],
+    [
+      30,
+      40,
+      60
+    ],
+    [
+      60,
+      80,
+      120
+    ]
+  ],
+  "large_seeds": [
+    1117,
+    2227,
+    3337
+  ],
+  "stress_size": [
+    90,
+    120,
+    180
+  ],
+  "stress_seeds": [
+    1117
+  ],
+  "repeats": 3,
+  "tolerance": 1e-06,
+  "carbon_beta": 0.5,
+  "pdhg_iterations": 30000,
+  "pdhg_time_seconds": 20,
+  "ipm_time_seconds": 30,
+  "simplex_time_seconds": 30,
+  "simplex_size_ceiling": 162,
+  "ablation_size": [
+    10,
+    15,
+    20
+  ],
+  "ablation_seeds": [
+    1117,
+    2227,
+    3337,
+    4447,
+    5557
+  ],
+  "ablation_iterations": 10000,
+  "ablation_time_seconds": 10,
+  "carbon_betas": [
+    0.1,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "notes": [
+    "Pilot seeds 0,1,2 are excluded from main results.",
+    "Dense educational simplex methods run only through 162 original route variables; not-run rows are not failures.",
+    "All methods use the same original LP and final certificate. Standard-form slacks are internal only.",
+    "Timing includes setup, solver iterations and checks, but excludes instance calibration, input serialization and plotting.",
+    "OR-Tools PDLP model-build time is separately archived and included in total time.",
+    "No large-scale superiority claim is assumed in advance; failures and limits are retained.",
+    "Ablations are separate diagnostics and do not tune the reported main algorithm."
+  ],
+  "development_note": "Earlier seeds 1101,2202,3303,4404,5505 and pilot 42 exposed poor RHS normalization of PDHG and the MPSolver wrapper returning no iterate at a time limit. Final evaluation uses fresh seeds, native PDLP Python API, and coefficient-based diagonal preconditioning without RHS normalization. RHS-scaled PDHG is retained as an ablation. All algorithms and parameters are fixed before this held-out run."
+}

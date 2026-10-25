@@ -1,0 +1,7 @@
+.venv/
+.runtime/
+__pycache__/
+*.py[cod]
+.DS_Store
+report/
+中文阅读说明.html
