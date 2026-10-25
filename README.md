@@ -64,7 +64,7 @@ Timing includes setup, iterations, and checks; PDLP model building is included. 
 | `summary.json`, `index.json` | Aggregated results and experiment index |
 | `environment.json`, `source_hashes.json` | Recorded runtime environment and benchmark source identities |
 
-`SHA256SUMS.json` lists the publication package's file hashes. `network/results/source_hashes.json` retains the original experiment source identities. Algorithm source, frozen instances, and numerical result files are unchanged from the supplied package.
+`SHA256SUMS.json` lists the publication package's file hashes. `network/results/source_hashes.json` retains the original experiment source identities. Algorithm source, frozen instances, and numerical result files are unchanged from the supplied package. The carbon-frontier figure's axis labels were shortened for legibility; its empirical curves are unchanged.
 
 ## Interpretation and limits
 

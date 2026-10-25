@@ -88,7 +88,7 @@ def main():
         premiums.append((vals(ss,'cost')/vals(ss,'unconstrained_cost')-1)*100); prices.append(vals(ss,'carbon_price'))
     premiums=np.array(premiums); prices=np.array(prices)
     fig,axes=plt.subplots(1,2,figsize=(6.5,2.7),layout='constrained')
-    for ax,a,color,yl in zip(axes,[premiums,prices],['#087f8c','#c45d5b'],['Cost premium over no-carbon optimum (%)','Marginal carbon price (normalized units)']):
+    for ax,a,color,yl in zip(axes,[premiums,prices],['#087f8c','#c45d5b'],['Cost premium (%)','Carbon price (normalized units)']):
         for v in a: ax.plot(betas,v,color=color,alpha=.3,lw=.8)
         ax.plot(betas,np.median(a,axis=0),color=color,lw=2,marker='o'); ax.grid(True,axis='y')
         ax.set(xlabel='Carbon budget parameter beta',ylabel=yl)
